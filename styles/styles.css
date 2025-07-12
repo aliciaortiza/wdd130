@@ -1,26 +1,45 @@
 nav {
-    background-color: deeppink;
+    background-color: #ff72bd;
     padding: 10px;
 }
 
 nav a {
-    color: white;
+    color: rgb(0, 0, 0);
     display: block;
     padding: 20px;
 }
 
 h1 {
-    color: deeppink;
+    color: #ff1493;
 }
 
-img {
+main img {
     width: 150px;
     height: auto;
-    border: 1px solid black;
+    border: 1px solid rgb(0, 0, 0);
     padding: 2px;
     box-shadow: 0 0 30px hotpink;
 }
 
 p {
-    padding: 10px;
+    padding: 0;
+}
+
+main {
+    max-width: 840px;
+}
+
+aside {
+    width: 20rem;
+    margin: 1rem;
+    border: 2px solid rgba(255, 0, 208, 0.2);
+    padding: 1rem;
+    background-color: #fff5fa;
+    color: #ff1493;
+    text-align: center;
+}
+
+aside img {
+    width: 200px;
+    height: auto;
 }
