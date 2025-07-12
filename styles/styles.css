@@ -10,7 +10,7 @@ nav a {
 }
 
 h1 {
-    color: #ff1493;
+    color: #ff38a2;
 }
 
 main img {
@@ -18,7 +18,7 @@ main img {
     height: auto;
     border: 1px solid rgb(0, 0, 0);
     padding: 2px;
-    box-shadow: 0 0 30px hotpink;
+    box-shadow: 0 0 30px rgb(255, 117, 186);
 }
 
 p {
@@ -32,14 +32,20 @@ main {
 aside {
     width: 20rem;
     margin: 1rem;
-    border: 2px solid rgba(255, 0, 208, 0.2);
+    border: 2px solid rgba(0, 0, 0, 0.2);
     padding: 1rem;
-    background-color: #fff5fa;
-    color: #ff1493;
+    background-color: #fff7fb;
+    color: #000000;
     text-align: center;
 }
 
 aside img {
     width: 200px;
     height: auto;
+}
+
+footer {
+    margin-top: 15px;
+    border-top: 1px solid  ;
+    text-align: center;
 }
