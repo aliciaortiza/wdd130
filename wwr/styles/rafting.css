@@ -12,6 +12,11 @@ header {
   color: var(--accent1-color);
 }
 
+header img {
+  width: 140px;
+  height: auto;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -76,4 +81,34 @@ h1 {
   max-width: 99%;
   top: 120px;
   background-color: #f7efdda9;
+}
+
+header {
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+
+}
+
+header nav {
+  display: flex;
+
+}
+
+footer {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  align-items: center;
+}
+
+footer nav {
+  display: flex;
+  justify-content: end;
+
+}
+
+
+.history {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
