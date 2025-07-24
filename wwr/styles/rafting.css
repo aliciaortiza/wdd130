@@ -164,6 +164,7 @@ header img {
 .adventures figcaption {
   font-size: 0.9em;
   color: var(--accent2-color);
+  font-style: var(--body-font);
 }
 
 footer {
@@ -185,4 +186,5 @@ footer p {
   grid-column: 2;
   text-align: center;
   color: var(--accent1-color);
+  font-style: var(--body-font);
 }
