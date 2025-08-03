@@ -188,3 +188,154 @@ footer p {
   color: var(--accent1-color);
   font-style: var(--body-font);
 }
+
+.contact-section {
+  top: 450px;
+  margin-top: -250px;
+}
+
+.contact-info {
+  position: relative;
+  background-color: #ffffff;
+  border: 1px solid var(--accent2-color);
+  border-radius: 12px;
+  padding: 40px 20px;
+  text-align: center;
+  width: 95%;
+  margin: 0 auto;
+}
+
+.contact-info h2 {
+  font-size: 2em;
+  margin-bottom: 12px;
+}
+
+.contact-info p,
+.contact-info a {
+  font-size: 22px;
+  margin: 6px 0;
+  text-decoration: none;
+  color: var(--accent2-color);
+}
+
+.map-container {
+  margin-top: 24px;
+}
+
+.map-container iframe {
+  width: 100%;
+  max-width: 600px;
+  height: 300px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  border: none;
+}
+
+.team {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  gap: 15px;
+  flex-wrap: wrap;
+  text-align: center;
+  border-radius: 9px;
+  padding: 24px;
+}
+
+.team h2 {
+  width: 100%;
+  font-size: 2em;
+  text-align: center;
+  background-color: var(--secondary-color);
+  margin-bottom: 16px;
+  padding: 8px;
+}
+
+.team figure {
+  max-width: 220px;
+}
+
+.team img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.team figcaption {
+  margin-top: 8px;
+  font-weight: bold;
+}
+
+.contact-form {
+  background-color: #f7efdd2f;
+  padding: 32px;
+  width: 90%;
+  max-width: 700px;
+  margin: 0 auto;
+  border: 0.2px solid #000F2A;
+  font-family: var(--body-font);
+}
+
+.contact-form h2 {
+  text-align: center;
+  color: var(--primary-color);
+  font-family: var(--heading-font);
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label,
+.purpose legend {
+  font-weight: bold;
+  color: var(--accent2-color);
+  margin-bottom: 8px;
+  display: block;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid var(--secondary-color);
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+.contact-form textarea {
+  resize: vertical;
+}
+
+.purpose label {
+  display: block;
+  margin-bottom: 6px;
+  font-size: 1rem;
+}
+
+.newsletter {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 24px;
+}
+
+.contact-form button[type="submit"] {
+  background-color: #F7EFDD;
+  color: var(--primary-color);
+  font-size: 1rem;
+  padding: 12px 24px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  display: block;
+  margin: 0 auto;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form button[type="submit"]:hover {
+  background-color: var(--secondary-color);
+  color: var(--accent2-color);
+}
