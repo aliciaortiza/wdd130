@@ -3,12 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Mako rafting site for user info about us">
+    <meta name="description" content="Welcome to Mako Rafting - thrilling whitewater adventures for all ages.">
     <meta name="author" content="Alicia Ortiz">
     <title>Home - Mako Rafting</title>
 
     <link rel="stylesheet" href="styles/rafting.css">
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lora&display=swap" rel="stylesheet">
@@ -18,39 +17,61 @@
     <header>
         <img src="images/wwr-logo.png" alt="Rafting Company Logo">
         <nav class="top">
-            <a class= "home" href="index.html">Home</a>
-            <a class= "about" href="about.html">About Us</a>
-            <a class= "trips" href="trips.html">Trips</a>
-            <a class= "contact" href="contact.html">Contact Us</a>
+        <a class="home" href="index.html">Home</a>
+        <a class="about" href="about.html">About Us</a>
+        <a class="trips" href="trips.html">Trips</a>
+        <a class="contact" href="contact.html">Contact Us</a>
         </nav>
-
-        
     </header>
 
     <main>
-        <div class= "hero">
-            <img src="images/hero-index.jpg" alt="Hero Background">
-            <h1>Home Page</h1>
+        <div class="hero">
+        <img src="images/hero-index.jpg" alt="Rafting Adventure">
+        <div class="hero-overlay">
+            <h1>Welcome to Mako Rafting</h1>
+            <a href="trips.html" class="book-button">Explore Our Trips</a>
+        </div>
         </div>
 
-       
+        <section class="grid-intro">
+        <div class="grid-item">
+            <img src="images/rafting-action.jpg" alt="Rafting Action">
+            <p><strong>Thrill Meets Nature:</strong> Navigate roaring rivers with our expert guides. Mako Rafting offers adrenaline packed adventures for all skill levels.</p>
+        </div>
+        <div class="grid-item">
+            <img src="images/family-rafting.jpg" alt="Family Rafting">
+            <p><strong>Fun for Everyone:</strong> From kids to grandparents, our family-friendly trips ensure safety, smiles, and unforgettable memories.</p>
+        </div>
+        </section>
+
+        <section class="newsletter">
+        <h2>Join Our Newsletter</h2>
+        <form class="contact-form">
+            <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            </div>
+            <button type="submit">Subscribe</button>
+        </form>
+        </section>
     </main>
 
     <footer>
         <p>&copy;2025 | Mako Rafting  | Alicia Ortiz</p>
-
         <nav class="socialmedia">
-            <a href="https://facebook.com">
-                <img src="images/facebook.svg" alt="Facebook Logo">
-            </a>
-            <a href="https://twitter.com">
-                <img src="images/twitter.svg" alt="Twitter Logo">
-            </a>
-            <a href="https://instagram.com">
-                <img src="images/instagram.svg" alt="Instagram Logo">
-            </a>
-            <a href="https://app.moqups.com/Q2T3szgQlmOiX4PKWMNxyJy0zW04Wws0/view/page/ad12de680">
-                <img src="images/wireframe.svg" alt="wireframe Logo">
+        <a href="https://facebook.com">
+            <img src="images/facebook.svg" alt="Facebook Logo">
+        </a>
+        <a href="https://twitter.com">
+            <img src="images/twitter.svg" alt="Twitter Logo">
+        </a>
+        <a href="https://instagram.com">
+            <img src="images/instagram.svg" alt="Instagram Logo">
+        </a>
         </nav>
     </footer>
 </body>
