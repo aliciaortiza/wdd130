@@ -452,7 +452,7 @@ footer p {
   margin-bottom: 12px;
 }
 
-.newsletter {
+.index-newsletter{
   background-color: var(--secondary-color);
   padding: 40px 20px;
   border-radius: 12px;
@@ -460,13 +460,13 @@ footer p {
   margin: 60px 0;
 }
 
-.newsletter h2 {
+.index-newsletter h2 {
   font-size: 2em;
   margin-bottom: 20px;
   color: var(--accent2-color);
 }
 
-.newsletter .contact-form {
+.index-newsletter .contact-form {
   background-color: #f7efdd2f;
   padding: 24px;
   border-radius: 8px;
@@ -474,25 +474,25 @@ footer p {
   margin: 0 auto;
 }
 
-.newsletter .form-group {
+.index-newsletter .form-group {
   margin-bottom: 16px;
   text-align: left;
 }
 
-.newsletter label {
+.index-newsletter label {
   font-weight: bold;
   display: block;
   margin-bottom: 6px;
 }
 
-.newsletter input {
+.index-newsletter input {
   width: 100%;
   padding: 10px;
   border: 1px solid var(--secondary-color);
   border-radius: 6px;
 }
 
-.newsletter button {
+.index-newsletter button {
   background-color: var(--accent1-color);
   color: var(--primary-color);
   font-size: 1rem;
@@ -504,7 +504,7 @@ footer p {
   transition: background-color 0.3s ease;
 }
 
-.newsletter button:hover {
+.index-newsletter button {
   background-color: var(--primary-color);
   color: var(--accent1-color);
 }
